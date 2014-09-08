@@ -16,3 +16,8 @@ class posts extends Controller{
 		var_dump($_POST);
 	}
 }
+
+    function view () {
+        $post_id = $this->parmas[0];
+        $this->post = get_first("SELECT * FROM post NATURAL JOIN user WHERE post_id='$post_id'");
+    }
