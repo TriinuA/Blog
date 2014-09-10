@@ -29,6 +29,5 @@ class posts extends Controller{
         $data['post_id'] = $this->params[0];
         $data['comment_author'] = 'Klaabu';
         insert('comment', $data);
-        var_dump($_post);
-    }
+            }
 }
