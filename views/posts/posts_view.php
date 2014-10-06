@@ -1,4 +1,4 @@
-<? foreach ($tags as $tag): ?><a href="tags/view/<?= $post['post_id'] ?>"><span class="label label-info"><?= $tag['tag_name'] ?></span>
+<? foreach ($tags as $tag): ?><a href="tags/view/<?= $tag['tag_name'] ?>"><span class="label label-info"><?= $tag['tag_name'] ?></span>
     </a> <? endforeach ?>
 <div class="span8">
     <h1><?= $post['post_subject'] ?></h1>
