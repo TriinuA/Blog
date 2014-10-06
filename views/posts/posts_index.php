@@ -5,7 +5,7 @@
         <div>
             <span class="badge badge-success">Posted 2012-08-02 20:47:04</span><div class="pull-right">
                 <?foreach($tags[$post['post_id']] as $tag):?>
-                    <a href="#"><span class="label" style="background-color: #5bc0de"><?=$tag?></span></a><? endforeach?>
+                <a href="tags/view/<?=$tag?>"><span class="label" style="background-color: #5bc0de"><?=$tag?></span></a><? endforeach?>
                 <span class="label">alice</span>
                 <span class="label">story</span>
                 <span class="label">blog</span>
